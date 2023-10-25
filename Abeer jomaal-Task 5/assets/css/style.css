@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color:  #333;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../images/header.png");
+    background-size:cover;
+    border-radius: 11px;
+    position: relative;
+}
+nav{
+    width:100vw;
+    height: 20vh;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px 70px;
+}
+nav h1{
+    color: #054C73;
+    font-size: 2.125rem;
+    font-weight: 700; 
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 61px;
+}
+a{
+    font-weight: 600;
+    text-decoration:none ;
+}
+.hero{
+    width: 100vw;
+    height: 80vh;
+}
+.hero-text{
+    padding: 40px;
+    width:46%;
+    background-color: #DFE9F4;
+    border-radius: 10px;
+    position: absolute;
+    top:  20%;
+    right: 0;
+}
+.hero-text span{
+    font-size: 1rem ;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+.hero-text h1{
+    color:  #054C73;
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 65px;
+    margin: 20px 0;
+}
+.hero-text p{
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 39px;
+}
+.hero-text button , .Beautify button{
+    margin-top: 20px;
+    width: 253px;
+    height: 68px;
+    border-radius: 50px;
+    background-color:  #054C73;
+    color: #fff;
+    border: none;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1rem;
+}
+.icons{
+    padding: 45px 0;
+    width:100vw;
+    background-color: #F2F5FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.text p{
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.text h1{
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.inspiration{
+    width: 100vw;
+    padding: 50px 0 ;
+}
+.inspiration h1,.Browse h1,.Works h1, .Join h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.Beautify h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.inspiration p , .Browse p ,.Works p{
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.images .img2{
+    position: relative;
+    transform: translateY(-7%) ;  
+}
+.Beautify .Beautify-text p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 39px; 
+}
+.Beautify{
+    width: 100vw;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    flex-wrap: wrap;
+}
+.Browse{ 
+    width: 100vw;
+    padding-bottom:  70px;
+    border-bottom: gray solid 2px;
+}
+.images p{
+    margin-top: 30px;
+    font-weight: 600;
+}
+.Works{
+    width: 100vw;
+    padding: 120px 10px;
+}
+.Works .images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.Works .image11 h1{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 45px;
+}
+.Works .image11 p{
+text-align: center;
+font-size: 1.125rem;
+font-weight: 400;
+line-height: 28px;
+margin-top: 12px;
+}
+.Works .images .image11 {
+    position: relative;
+} 
+.Works .images .image11 .num{
+    width: 60px;
+    height: 60px;
+    background-color: #333;
+    color: #FFF;
+    border-radius: 50%;
+    outline: 15px solid #FCFCFC;
+    position: absolute;
+    top: 64%;
+    left: 50%; 
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top : 15px;
+    transform: translateY(-50%) translateX(-50%)
+}
+.Join{
+    width: 100VW;
+    background-color: #F2F5FF ;
+    padding: 90px 0;
+}
+.Join p{
+    color:  #666;
+text-align: center;
+font-size: 1.125rem;
+font-weight: 400;
+line-height: 39px; 
+}
+.form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+}
+.email{
+    text-align: center;
+    width: 380px;
+    height: 77px;
+    border-radius: 3px;
+border: 1px solid #054C73;
+background-color: #FFF;
+}
+.submit{
+    text-align: center;
+    width: 150px;
+    height: 77px;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid #011C42;  
+    background-color: #054C73;
+}
+.Beauty{
+    padding-left:  40px;
+    width: 100vw;
+    display: flex;   
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20%;
+    background-color: #03344F;
+}
+.card h1{
+    padding-top: 120px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFF;
+}
+.texts{
+    text-align: right;
+}
+.card p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 35px; 
+    color: #FFF;
+    padding-top: 25px;
+}
+.card .photo{
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap ;
+    gap: 25px;
+}
+@media screen  and (max-width: 992px){
+
+        nav ul{
+            display:none; 
+        }
+        .list{
+            display:block;
+        }
+        html{
+            font-size: 10px;
+        }
+        .hero-text{
+            width:max-content;
+            margin: auto;
+            text-align: center;
+            background: none;
+            position: absolute;
+            top: 20%;
+        }
+        
+            nav{
+            padding:20px 20px ;
+            align-items: flex-start;
+            gap: 80px;    
+        }
+        .img22{
+            width: 300px;
+        }
+        .card h1,.card p{
+            text-align: left;
+        }
+         .images img{
+            max-width: 250px;
+        }
+        .Works .images .image11 .num{
+            position: absolute;
+            top: 55%;
+            left: 50%;         
+            transform: translateY(-50%) translateX(-50%)
+        }
+        .email{
+            max-width: 290px;
+        }
+    }
+@media screen  and (min-width: 992px){
+    .list{
+        display:none; 
+    }
+}
